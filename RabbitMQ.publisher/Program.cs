@@ -1,5 +1,6 @@
 ﻿using RabbitMQ.Client;
 using System;
+using System.Linq;
 using System.Text;
 
 namespace RabbitMQ.publisher
@@ -16,11 +17,19 @@ namespace RabbitMQ.publisher
             var channel = connection.CreateModel();
 
             channel.QueueDeclare("hello-queue", true, false, false);
-            string message = "Hello World";
-            var messageBody = Encoding.UTF8.GetBytes(message);
-            channel.BasicPublish(string.Empty, "hello-queue", null, messageBody);
 
-            Console.WriteLine("Mesaj catdirilmishdir");
+            Enumerable.Range(1, 50).ToList().ForEach(x => {
+
+                string message = $"Message {x}";
+                var messageBody = Encoding.UTF8.GetBytes(message);
+                channel.BasicPublish(string.Empty, "hello-queue", null, messageBody);
+                Console.WriteLine($"Mesaj catdirilmishdir : {message}");
+
+            });
+
+
+
+
             Console.ReadLine();
 
         }

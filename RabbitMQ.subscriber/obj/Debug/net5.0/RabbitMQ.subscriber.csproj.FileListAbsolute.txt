@@ -3,7 +3,6 @@ C:\Users\SAMSUNG\Desktop\RabbitMQ\RabbitMQ.subscriber\bin\Debug\net5.0\RabbitMQ.
 C:\Users\SAMSUNG\Desktop\RabbitMQ\RabbitMQ.subscriber\bin\Debug\net5.0\RabbitMQ.subscriber.runtimeconfig.json
 C:\Users\SAMSUNG\Desktop\RabbitMQ\RabbitMQ.subscriber\bin\Debug\net5.0\RabbitMQ.subscriber.runtimeconfig.dev.json
 C:\Users\SAMSUNG\Desktop\RabbitMQ\RabbitMQ.subscriber\bin\Debug\net5.0\RabbitMQ.subscriber.dll
-C:\Users\SAMSUNG\Desktop\RabbitMQ\RabbitMQ.subscriber\bin\Debug\net5.0\ref\RabbitMQ.subscriber.dll
 C:\Users\SAMSUNG\Desktop\RabbitMQ\RabbitMQ.subscriber\bin\Debug\net5.0\RabbitMQ.subscriber.pdb
 C:\Users\SAMSUNG\Desktop\RabbitMQ\RabbitMQ.subscriber\bin\Debug\net5.0\RabbitMQ.Client.dll
 C:\Users\SAMSUNG\Desktop\RabbitMQ\RabbitMQ.subscriber\obj\Debug\net5.0\RabbitMQ.subscriber.csproj.AssemblyReference.cache
@@ -16,3 +15,4 @@ C:\Users\SAMSUNG\Desktop\RabbitMQ\RabbitMQ.subscriber\obj\Debug\net5.0\RabbitMQ.
 C:\Users\SAMSUNG\Desktop\RabbitMQ\RabbitMQ.subscriber\obj\Debug\net5.0\ref\RabbitMQ.subscriber.dll
 C:\Users\SAMSUNG\Desktop\RabbitMQ\RabbitMQ.subscriber\obj\Debug\net5.0\RabbitMQ.subscriber.pdb
 C:\Users\SAMSUNG\Desktop\RabbitMQ\RabbitMQ.subscriber\obj\Debug\net5.0\RabbitMQ.subscriber.genruntimeconfig.cache
+C:\Users\SAMSUNG\Desktop\RabbitMQ\RabbitMQ.subscriber\bin\Debug\net5.0\ref\RabbitMQ.subscriber.dll
