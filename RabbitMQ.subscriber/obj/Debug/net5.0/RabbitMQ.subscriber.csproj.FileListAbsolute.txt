@@ -15,4 +15,4 @@ C:\Users\SAMSUNG\Desktop\RabbitMQ\RabbitMQ.subscriber\obj\Debug\net5.0\RabbitMQ.
 C:\Users\SAMSUNG\Desktop\RabbitMQ\RabbitMQ.subscriber\obj\Debug\net5.0\ref\RabbitMQ.subscriber.dll
 C:\Users\SAMSUNG\Desktop\RabbitMQ\RabbitMQ.subscriber\obj\Debug\net5.0\RabbitMQ.subscriber.pdb
 C:\Users\SAMSUNG\Desktop\RabbitMQ\RabbitMQ.subscriber\obj\Debug\net5.0\RabbitMQ.subscriber.genruntimeconfig.cache
-C:\Users\SAMSUNG\Desktop\RabbitMQ\RabbitMQ.subscriber\bin\Debug\net5.0\ref\RabbitMQ.subscriber.dll
+C:\Users\SAMSUNG\Desktop\RabbitMQ\RabbitMQ.subscriber\obj\Debug\net5.0\refint\RabbitMQ.subscriber.dll
