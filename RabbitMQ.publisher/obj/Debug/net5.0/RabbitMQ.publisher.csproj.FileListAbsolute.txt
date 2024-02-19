@@ -15,4 +15,4 @@ C:\Users\SAMSUNG\Desktop\RabbitMQ\RabbitMQ.publisher\obj\Debug\net5.0\RabbitMQ.p
 C:\Users\SAMSUNG\Desktop\RabbitMQ\RabbitMQ.publisher\obj\Debug\net5.0\ref\RabbitMQ.publisher.dll
 C:\Users\SAMSUNG\Desktop\RabbitMQ\RabbitMQ.publisher\obj\Debug\net5.0\RabbitMQ.publisher.pdb
 C:\Users\SAMSUNG\Desktop\RabbitMQ\RabbitMQ.publisher\obj\Debug\net5.0\RabbitMQ.publisher.genruntimeconfig.cache
-C:\Users\SAMSUNG\Desktop\RabbitMQ\RabbitMQ.publisher\obj\Debug\net5.0\refint\RabbitMQ.publisher.dll
+C:\Users\SAMSUNG\Desktop\RabbitMQ\RabbitMQ.publisher\bin\Debug\net5.0\ref\RabbitMQ.publisher.dll
