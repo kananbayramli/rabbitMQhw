@@ -23,7 +23,11 @@ namespace RabbitMQ.subscriber
 
             var consumer = new EventingBasicConsumer(channel);
 
-            var queueName = "direct-queue-Critical";
+            var queueName = channel.QueueDeclare().QueueName;
+
+            //bashlangici ve sonu ne olur olsun, orta Error olan mesajlari getir
+            var routeKey = "*.Error.*";
+            channel.QueueBind(queueName, "logs-topic", routeKey);
 
             channel.BasicConsume(queueName, false, consumer);
 
@@ -31,14 +35,9 @@ namespace RabbitMQ.subscriber
 
             consumer.Received += (object sender, BasicDeliverEventArgs e) =>
             {
-                var message = Encoding.UTF8.GetString(e.Body.ToArray());
-
+                var message = Encoding.UTF8.GetString(e.Body.ToArray()); 
                 Thread.Sleep(1500);
-
                 Console.WriteLine("Gelen mesaj: " + message);
-
-                File.AppendAllText("log-critical.txt", message + "\n");
-
                 channel.BasicAck(e.DeliveryTag, false);
             };
 
